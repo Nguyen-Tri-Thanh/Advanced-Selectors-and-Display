@@ -1,0 +1,60 @@
+body{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 125%;
+}
+h1{
+  font-style: italic;
+  color: cyan;
+  text-align: center;
+}
+header{
+  background: yellow;
+}
+nav{
+  background: orangered;
+}
+main{
+  font-size: 115%;
+  background: lightblue;
+}
+footer{
+  background: lightyellow;
+}
+br{
+  line-height: 50%;
+}
+nav{
+  display: inline-block;
+  width: 80%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav image
+{
+  width: 10%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    gap: 20px;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 30px;
+}
+.grid image
+{
+  width: 100%;
+}
+.flex
+{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
